@@ -73,7 +73,7 @@ Paciente, Medico e Enfermeiro, já tem que existir. Senão retorna error.
 
 #### Retornar dados da collection
 
-Para pegar todos os leitos via "CRM" e "Coren"
+Para pegar todos os leitos
 
 - GET - http://<host>:3000/hospital/v1/leito
 
