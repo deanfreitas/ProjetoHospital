@@ -18,7 +18,7 @@ Retornar todos dados da collection
   
 Retornar dados da collection por id
 
-- GET - http://<host>:3000/hospital/v1/paciente/id/<id>
+- GET - http://<host>:3000/hospital/v1/paciente/id/:id
   
 #### Inserir dados na collection
 
@@ -42,7 +42,7 @@ Retornar dados da collection por id
 
 #### Deletar dados da collection
 
-- DELETE - http://<host>:3000/hospital/v1/paciente/id/<id>
+- DELETE - http://<host>:3000/hospital/v1/paciente/id/:id
 
 ### Leitos
 
@@ -79,4 +79,4 @@ Para pegar todos os leitos via "CRM" e "Coren"
 
 Para pegar todos os leitos via "CRM" ou "Coren". Só muda os dois ultimos parâmetros.
 
-- GET - http://<host>:3000/hospital/v1/leito/crm/<crm>
+- GET - http://<host>:3000/hospital/v1/leito/crm/:crm
